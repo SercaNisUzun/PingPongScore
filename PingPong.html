@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PingPong.css">
+</head>
+
+<body>
+    <section>
+    <div class="center">
+        <img src="PingPong.jpg" alt="Ping Pong">
+        <p><b>Ping Pong Score Keeper</b></p>
+
+        <p>Playing to : <input type="number" min="1" max="20" value="0"></p>
+    </div>
+    <div class="flex">
+        <div class="flex red text rborder" id="redbox">
+            <h2 id="red">Red Score :</h2>
+            <h2 id="redScore">0</h2>
+        </div>
+        <div class="flex blue text bborder" id="bluebox">
+            <h2 id="blue">Blue Score :</h2>
+            <h2 id="blueScore">0</h2>
+        </div>
+    </div>
+    <div class="center">
+        <p>Use the buttons below to keep score.</p>
+        <button id="redb" class="red">+1 to Red</button>
+        <button id="blueb" class="blue">+1 to Blue</button>
+        <button id="reset">Reset</button>
+    </div>
+</section>
+    <script src="PingPong.js" defer></script>
+</body>
+
+</html>
